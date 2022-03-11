@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recu Web Tabuada</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="anal.html">Analisador de números</a></li>
+            <li><a href="hora.html">Hora do dia</a></li>
+            <li><a href="tabuada.html">Tabuada</a></li>
+            <li><a href="conta.html">Vamos contar</a></li>
+            <li><a href="verificador.html">Verificador de idade</a></li>
+        </ul>
+    </header>
+    <section>
+        <div>
+            <p>
+                Número: <input type="number" name="num" id="txtn">
+                <input type="button" value="gerar tabuada" onclick="tabuada()">
+            </p>
+        </div>
+        <div id="res">
+            <select name="tabuada" id="seltab" size="2">
+                <option>Digite um número acima!</option>
+            </select>
+        </div>
+    </section>
+    <footer>
+        <h3>&copy;Bruna Barbosa</h3>
+    </footer>
+    <script src="js/tabuscript.js"></script>
+</body>
+</html>
